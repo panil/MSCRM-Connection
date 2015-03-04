@@ -1,0 +1,12 @@
+D:\experiment\CRMConnect\Sample\bin\Release\Sample.exe.config
+D:\experiment\CRMConnect\Sample\bin\Release\Sample.exe
+D:\experiment\CRMConnect\Sample\bin\Release\Sample.pdb
+D:\experiment\CRMConnect\Sample\bin\Release\CRMConnect.dll
+D:\experiment\CRMConnect\Sample\bin\Release\microsoft.crm.sdk.proxy.dll
+D:\experiment\CRMConnect\Sample\bin\Release\microsoft.xrm.sdk.dll
+D:\experiment\CRMConnect\Sample\bin\Release\System.DirectoryServices.AccountManagement.dll
+D:\experiment\CRMConnect\Sample\bin\Release\System.Security.dll
+D:\experiment\CRMConnect\Sample\bin\Release\System.ServiceModel.dll
+D:\experiment\CRMConnect\Sample\obj\Release\Sample.csprojResolveAssemblyReference.cache
+D:\experiment\CRMConnect\Sample\obj\Release\Sample.exe
+D:\experiment\CRMConnect\Sample\obj\Release\Sample.pdb

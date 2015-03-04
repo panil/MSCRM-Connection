@@ -1,0 +1,26 @@
+﻿PM> Install-Package CRMConnection
+
+Sample Program
+
+class Program
+    {
+        static void Main(string[] args)
+        {
+            Microsoft.Xrm.Sdk.IOrganizationService _service = null;
+            Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy _serviceProxy;
+            ServerConnection serverConnect = new ServerConnection();
+            ServerConnection.Configuration config = serverConnect.GetServerConfiguration("yourusername", "yourpassword","crm");
+            _serviceProxy = ServerConnection.GetOrganizationProxy(config);
+
+            // This statement is required to enable early-bound type support.
+            _serviceProxy.EnableProxyTypes();
+
+            _service = (Microsoft.Xrm.Sdk.IOrganizationService)_serviceProxy;
+        }
+    }
+
+Use the _Service object as your own way.
+
+
+
+
